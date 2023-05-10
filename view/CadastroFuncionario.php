@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +10,7 @@
 	<h1>Cadastro de Funcionarios</h1>
 
 
-	<form method="POST" action="Entidades/Funcionarios/CadFuncBack.php">
+	<form method="POST" action="../model/CadastroFuncionario.php">
 		<label>Nome:</label>
 		<input type="text" name="nome">
 		<label>Email:</label>

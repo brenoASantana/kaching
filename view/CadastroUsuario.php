@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +10,7 @@
 	<h1>Cadastro de Usuários</h1>
 
 
-	<form method="POST" action="Entidades/Usuarios/CadUsuBack.php">
+	<form method="POST" action="../model/CadastroUsuario.php">
 		<label>Email:</label>
 		<input type="text" name="email" placeholder="email@dominio.com">
 		<label>Senha:</label>

@@ -1,4 +1,4 @@
-<?php include('Conexao.php');
+<?php include('../controller/conexao.php');
 
 $sql = "SELECT * FROM estado";
 mysqli_query($conn, $sql);

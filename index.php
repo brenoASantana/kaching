@@ -3,9 +3,9 @@
 
 <head>
     <title>Kaching Software</title>
-    <link rel="stylesheet" type="text/css" href="Front+/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="Front+/css/style.css">
-    <link rel="stylesheet" type="text/css" href="Front+/css/fonts-icones.css">
+    <link rel="stylesheet" type="text/css" href="view/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="view/css/style.css">
+    <link rel="stylesheet" type="text/css" href="view/css/fonts-icones.css">
 </head>
 
 <body>
@@ -16,12 +16,12 @@
 
             <div class="content">
                 <center>
-                    <img src="Front+/img/logoKaching.png" alt="logoKaching" width="248" height="248">
+                    <img src="view/css/img/LogoKaching.png" alt="LogoKaching" width="248" height="248">
                 </center>
 
                 <div class="box-artigo">
 
-                    <form class="formulario" method="post" action="Login.php">
+                    <form class="formulario" method="post" action="controller/login.php">
                         <div class="title icon icon-forward-1"> Login</div>
                         <div class="input-container">
                             <input id="email" class="input" type="text" name="email" placeholder="" />

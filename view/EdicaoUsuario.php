@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -46,7 +46,7 @@
 	<br><br>
 	<h2 style="text-align: left; ">Usuário:</h2><br>
 
-	<form method="POST" action="Entidades/Usuarios/EditUsuBack.php">
+	<form method="POST" action="../model/EdicaoUsuario.php">
 		<label>Email:</label>
 		<input type="text" name="email" placeholder="email@dominio.com" value="<?php if (isset($email) === TRUE) {
 																					echo $email;

@@ -1,4 +1,4 @@
-<?php include('conn/conexao.php'); ?>
+<?php include('conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@
 
 	?>
 
-	<form method="POST" action="estoque/incluir.php">
+	<form method="POST" action="../model/IncluirEstoque.php">
 		<fieldset>
 			<legend>Estoque</legend>
 			<label>Produto:</label>

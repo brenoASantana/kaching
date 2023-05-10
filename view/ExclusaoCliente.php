@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -52,7 +52,7 @@
 			echo "Email: " . $email . "<br>";
 			echo "Data de Nascimento: " . $data_nascimento . "<br>";
 			echo "UF: " . $uf . "<br><br>";
-			echo "<a href='Entidades/Clientes/ExclCliBack.php?id" . $id . "' class='btn-excluir'>Excluir</a>";
+			echo "<a href='../model/ExclusaoCliente.php?id" . $id . "' class='btn-excluir'>Excluir</a>";
 		} else {
 			echo "Dados não encontrados";
 		}

@@ -1,19 +1,19 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../../Front+/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../../Front+/style.css">
-	<link rel="stylesheet" type="text/css" href="../../Front+/fonts-icones.css">
+	<link rel="stylesheet" type="text/css" href="../view/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../view/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../view/css/fonts-icones.css">
 </head>
 
 <body>
 	<h1>Cadastro de Clientes</h1>
 
 
-	<form method="POST" action="Entidades/Clientes/CadCliBack.php">
+	<form method="POST" action="../model/CadastroCliente.php">
 		<label>Nome:</label>
 		<input type="text" name="nome">
 		<label>Email:</label>

@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@
 			echo "Nome Fantasia: " . $nome_fantasia . "<br>";
 			echo "Representante: " . $representante . "<br>";
 			echo "Ramo de Atividade: " . $atividade . "<br>";
-			echo "<a href='Entidades/Fornecedores/ExclFornBack.php?id=" . $id . "' class='btn-excluir'>Excluir</a>";
+			echo "<a href='../model/ExclusaoFornecedor.php?id=" . $id . "' class='btn-excluir'>Excluir</a>";
 		} else {
 			echo "Dados não encontrado";
 		}

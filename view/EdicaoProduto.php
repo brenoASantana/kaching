@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@
 	<br><br>
 	<h2 style="text-align: left; ">Produto:</h2>
 	<fieldset>
-		<form method="POST" action="Entidades/Produtos/EditProdBack.php">
+		<form method="POST" action="../model/EdicaoProduto.php">
 			<label>Nome:</label>
 			<input type="text" name="produto" value="<?php if (isset($nome) === TRUE) {
 															echo $nome;
