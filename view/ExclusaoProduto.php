@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -45,7 +45,7 @@
 			echo "Categoria: " . $linha['categoria'] . "<BR>";
 			echo "Sub Categoria: " . $linha['sub_categoria'] . "<BR>";
 			echo "Fornecedor: " . $linha['fornecedor'] . "<BR>";
-			echo "<a href='produtos/excluir.php?id=" . $linha['id_produto'] . "' class='btn-excluir'>excluir</a>";
+			echo "<a href='..model/ExclusaoProduto.php?id=" . $linha['id_produto'] . "' class='btn-excluir'>excluir</a>";
 		} else {
 			echo "Produto não encontrado";
 		}

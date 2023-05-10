@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -43,7 +43,7 @@
 			echo "ID Funcionário: " . $id_funcionario . "<br>";
 			echo "ID Cargo: " . $id_cargo . "<br>";
 			echo "Email: " . $email . "<br>";
-			echo "<a href='Entidades/Usuarios/ExclUsuBack.php?id=" . $id . "' class='btn-excluir'>Excluir</a>";
+			echo "<a href='..model/ExclusaoUsuario.php?id=" . $id . "' class='btn-excluir'>Excluir</a>";
 		} else {
 			echo "Dados não encontrado";
 		}

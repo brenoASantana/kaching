@@ -1,5 +1,5 @@
 <?php
-include('../../Conexao.php');
+include('../controller/conexao.php');
 
 $produto = $_POST['produto'];
 $codigo = $_POST['codigo'];
@@ -19,7 +19,7 @@ if ($produto == null || $codigo == null || $categoria == "SELECIONE" || $sub_cat
 	$sql = "INSERT INTO produtos (nome, codigo, id_categoria, id_sub_categoria, id_fornecedor, ativo) VALUES ('$produto','$codigo','$categoria','$sub_categorias', '$fornecedores','$ativo')";
 
 	if ($conn->query($sql) === TRUE) {
-		echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso!');window.location.href='../../painelAdmin.php?menu=prodCad'</script>";
+		echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso!');window.location.href='../controller/PainelAdmin.php?menu=prodCad'</script>";
 	} else {
 		echo "erro ao incluir" . $conn->error;
 	}

@@ -1,19 +1,19 @@
-<?php include('Conexao.php'); ?>
+<?php include('conexao.php'); ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Pedidos</title>
-    <link rel="stylesheet" type="text/css" href="Front+/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="Front+/css/style.css">
-    <link rel="stylesheet" type="text/css" href="Front+/css/fonts-icones.css">
+    <link rel="stylesheet" type="text/css" href="../view/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../view/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../view/css/fonts-icones.css">
 </head>
 
 <body>
     <h1>Geração de pedidos</h1>
     <center>
-        <img src="Front+/img/logoKaching.png" alt="logoKaching" width="248" height="248">
+        <img src="../view/css/img/LogoKaching.png" alt="LogoKaching" width="248" height="248">
     </center>
     <!-- ESSE BOTÃO TEM A FINALIDADE CRIAR UM NUMERO DE PEDIDO. ENVIA VIA POST PARA A PROPRIA PAGINA-->
     <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
@@ -106,6 +106,8 @@
         <input type="checkbox" name="prevenda">
         <br><br>
         <input type="submit" name="cadastro" value="Cadastrar">
+        <br><br>
+        <a href="../index.php" class="btn-excluir">Sair</a>
     </form>
 
 </body>

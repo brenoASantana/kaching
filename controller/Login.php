@@ -1,5 +1,5 @@
 <?php
-include('Conexao.php');
+include('conexao.php');
 
 $email = $_POST['email'];
 $senha = $_POST['senha'];
@@ -22,9 +22,9 @@ if (mysqli_num_rows($verifica) <= 0) {
 	$id_cargo = $linha['id_cargo'];
 
 	if ($id_cargo == 1) {
-		header('location: ../Kaching/painelAdmin.php');
+		header('location: PainelAdmin.php');
 	} else if ($id_cargo == 2) {
-		header('location: ../Kaching/Pedidos.php');
+		header('location: Pedidos.php');
 	} else {
 		echo "<script language='javascript' type='text/javascript'>alert('Usuário com cargo desconhecido');window.location.href='../index.php'</script>";
 	}

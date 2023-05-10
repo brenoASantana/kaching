@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +10,7 @@
 	<h1>Cadastro de Fornecedores</h1>
 
 
-	<form method="POST" action="Entidades/Fornecedores/CadFornBack.php">
+	<form method="POST" action="../model/CadastroFornecedor.php">
 		<label>Razão Social:</label>
 		<input type="text" name="razao_social">
 		<label>Nome Fantasia:</label>

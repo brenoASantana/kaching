@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +8,7 @@
 
 <body>
 	<h1>Cadastro de Produtos</h1>
-	<form method="POST" action="Entidades/Produtos/CadProdBack.php">
+	<form method="POST" action="../model/CadastroProduto.php">
 		<fieldset>
 			<label>Nome do Produto:</label>
 			<input type="text" name="produto">

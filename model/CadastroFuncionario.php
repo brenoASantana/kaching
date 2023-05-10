@@ -1,5 +1,5 @@
 <?php
-include('../../Conexao.php');
+include('../controller/conexao.php');
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
@@ -23,7 +23,7 @@ if ($nome == null || $email == null || $data_nascimento == null || $cpf == null 
 	$sql = "INSERT INTO funcionarios (nome, email, data_nascimento, cpf, endereco, bairro, id_estados, id_cargo, ativo) VALUES ('$nome','$email','$data_nascimento','$cpf','$endereco','$bairro','$estados','$cargo', '$ativo')";
 
 	if ($conn->query($sql) === TRUE) {
-		echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso!');window.location.href='../../painelAdmin.php?menu=funcCad'</script>";
+		echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso!');window.location.href='../controller/PainelAdmin.php?menu=funcCad'</script>";
 	} else {
 		echo "erro ao incluir" . $conn->error;
 	}

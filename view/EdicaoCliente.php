@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -53,7 +53,7 @@
 	<br><br>
 	<h2 style="text-align: left; ">Cliente:</h2>
 
-	<form method="POST" action="Entidades/Clientes/EditCliBack.php">
+	<form method="POST" action="../model/EdicaoCliente.php">
 		<label>Nome:</label>
 		<input type="text" name="nome" value="<?php if (isset($nome) === TRUE) {
 													echo $nome;

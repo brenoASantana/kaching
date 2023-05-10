@@ -1,4 +1,4 @@
-<?php include('../Kaching/Conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -59,7 +59,7 @@
 	<br><br>
 	<h2 style="text-align: left; ">Fornecedor:</h2>
 
-	<form method="POST" action="Entidades/Fornecedores/EditFornBack.php">
+	<form method="POST" action="../model/EdicaoFornecedor.php">
 		<label>Razão Social:</label>
 		<input type="text" name="razao_social" value="<?php if (isset($razao_social) === TRUE) {
 															echo $razao_social;

@@ -1,4 +1,4 @@
-<?php include('conn/conexao.php'); ?>
+<?php include('../controller/conexao.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -30,7 +30,7 @@
 
 	?>
 	<br><br>
-	<form method="POST" action="tbpreco/incluir.php">
+	<form method="POST" action="../model/IncluirPreco.php">
 		<fieldset>
 			<h2>Precificação</h2>
 			<label>Produto:</label>

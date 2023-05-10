@@ -3,9 +3,9 @@
 
 <head>
 	<title>Sistema de Métricas de Vendas</title>
-	<link rel="stylesheet" type="text/css" href="Front+/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="Front+/css/style.css">
-	<link rel="stylesheet" type="text/css" href="Front+/css/fonts-icones.css">
+	<link rel="stylesheet" type="text/css" href="../view/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../view/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../view/css/fonts-icones.css">
 </head>
 
 <body>
@@ -65,57 +65,57 @@
 				switch ($menu) {
 						//Funcionários
 					case 'funcCad':
-						include('Entidades/Funcionarios/CadFuncFront.php');
+						include('../view/CadastroFuncionario.php');
 						break;
 					case 'funcEdit':
-						include('Entidades/Funcionarios/EditFuncFront.php');
+						include('../view/EdicaoFuncionario.php');
 						break;
 					case 'funcExcl':
-						include('Entidades/Funcionarios/ExclFuncFront.php');
+						include('../view/ExclusaoFuncionario.php');
 						break;
 
 						//Clientes
 					case 'cliCad':
-						include('Entidades/Clientes/CadCliFront.php');
+						include('../view/CadastroCliente.php');
 						break;
 					case 'cliEdit':
-						include('Entidades/Clientes/EditCliFront.php');
+						include('../view/EdicaoCliente.php');
 						break;
 					case 'cliExcl':
-						include('Entidades/Clientes/ExclCliFront.php');
+						include('../view/ExclusaoCliente.php');
 						break;
 
 						//Fornecedores
 					case 'fornCad':
-						include('Entidades/Fornecedores/CadFornFront.php');
+						include('../view/CadastroFornecedor.php');
 						break;
 					case 'fornEdit':
-						include('Entidades/Fornecedores/EditFornFront.php');
+						include('../view/CadastroFornecedor.php');
 						break;
 					case 'fornExcl':
-						include('Entidades/Fornecedores/ExclFornFront.php');
+						include('../view/ExclusaoFornecedor.php');
 						break;
 
 						//Produtos
 					case 'prodCad':
-						include('Entidades/Produtos/CadProdFront.php');
+						include('../view/CadastroProduto.php');
 						break;
 					case 'prodEdit':
-						include('Entidades/Produtos/EditProdFront.php');
+						include('../view/EdicaoProduto.php');
 						break;
 					case 'prodExcl':
-						include('Entidades/Produtos/ExclProdFront.php');
+						include('../view/ExclusaoProduto.php');
 						break;
 
 						//Usuários
 					case 'usuCad':
-						include('Entidades/Usuarios/CadUsuFront.php');
+						include('../view/CadastroUsuario.php');
 						break;
 					case 'usuEdit':
-						include('Entidades/Usuarios/EditUsuFront.php');
+						include('../view/EdicaoUsuario.php');
 						break;
 					case 'usuExcl':
-						include('Entidades/Usuarios/ExclUsuFront.php');
+						include('../view/ExclusaoUsuario.php');
 						break;
 
 
@@ -149,7 +149,7 @@
 					<td>Ranking de Clientes (EM BREVE)</td>
 				</tr>
 				<tr>
-					<td><a href="../Kaching/index.php" class="btn-excluir">Sair</a></td>
+					<td><a href="../index.php" class="btn-excluir">Sair</a></td>
 				</tr>
 			</table>
 		</div>
