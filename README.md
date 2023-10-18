@@ -4,20 +4,20 @@ Um projeto Full-Stack de sistema de inventário e gestão organizado de forma MV
 
 ## Tela Inicial
 
-![telaInicial](view\css\img\telaInicial.png)
+<img src="view\css\img\telaInicial.png" alt="telaInicial">
 
 ## Painel do Administrador
 
-![painelAdmin](view\css\img\painelAdmin.png)
+<img src="view\css\img\painelAdmin.png" alt="painelAdmin">
 
 ## Janela de Cadastro de Usuário
 
-![cadastroUser](view\css\img\cadastroUser.png)
+<img src="view\css\img\cadastroUser.png" alt="cadastroUser">
 
 ## Janela de Atualização de Usuário
 
-![atualizarUser](view\css\img\atualizarUser.png)
+<img src="view\css\img\atualizarUser.png" alt="atualizarUser">
 
 ## Janela de Remoção de Usuário
 
-![apagarUser](view\css\img\apagarUser.png)
+<img src="view\css\img\apagarUser.png" alt="apagarUser">
