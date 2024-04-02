@@ -1,23 +1,27 @@
 # Kaching Software
 
-Um projeto Full-Stack de sistema de inventário e gestão organizado de forma MVC programado em PHP, HTML e CSS com um CRUD de produtos, funcionários, usuários e fornecedores.
+Kaching Software é um sistema de gerenciamento de inventário Full-Stack organizado em uma arquitetura MVC, programado em PHP, HTML e CSS. Ele permite realizar operações CRUD (criar, ler, atualizar e excluir) para produtos, funcionários, usuários e fornecedores.
 
-## Tela Inicial
+## Capturas de Tela
 
-<img src="view\css\img\telaInicial.png" alt="telaInicial">
+### Tela Inicial
 
-## Painel do Administrador
+![Tela Inicial](view/css/img/telaInicial.png)
 
-<img src="view\css\img\painelAdmin.png" alt="painelAdmin">
+### Painel do Administrador
 
-## Janela de Cadastro de Usuário
+![Painel do Administrador](view/css/img/painelAdmin.png)
 
-<img src="view\css\img\cadastroUser.png" alt="cadastroUser">
+### Janela de Cadastro de Usuário
 
-## Janela de Atualização de Usuário
+![Cadastro de Usuário](view/css/img/cadastroUser.png)
 
-<img src="view\css\img\atualizarUser.png" alt="atualizarUser">
+### Janela de Atualização de Usuário
 
-## Janela de Remoção de Usuário
+![Atualização de Usuário](view/css/img/atualizarUser.png)
 
-<img src="view\css\img\apagarUser.png" alt="apagarUser">
+### Janela de Remoção de Usuário
+
+![Remoção de Usuário](view/css/img/apagarUser.png)
+
+---
